@@ -116,6 +116,75 @@ table {
   color: #00d16f;
   font-weight: bold;
 }
+.first-section-snapp-wrapper {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.inner-right-box-snapp,.inner-left-box-snapp {
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.inner-right-box-snapp {
+  background: #21aa58;
+  color: #fff;
+  padding: 35px 15% 35px 35px;
+  justify-content: space-between;
+}
+.wrapper-img-box-first-snapp {
+  display: flex;
+}
+.wrapper-img-box-first-snapp > img {
+  max-height: 455px;
+  transform: scaleX(-1);
+}
+.main-title-snapp {
+  font-size: 36px;
+  line-height: 52px;
+  font-weight: 700;
+}
+.main-desc-snapp {
+  font-size: 20px;
+  padding: 16px 0;
+  line-height: 1.5;
+}
+.inner-right-box-snapp form {
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  gap: 15px;
+}
+.inner-right-box-snapp form input#mobile_phone {
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid #fff;
+  text-align: right;
+  flex: 1;
+  font-size: 16px;
+  padding: 10px;
+  font-family: 'iransans' ,sans-serif;
+}
+.inner-right-box-snapp form button {
+  background: #fff;
+  border: none;
+  min-width: 120px;
+  color: #00d16f;
+  font-family: 'iransans', sans-serif;
+  font-size: 100%;
+  border-radius: 6px;
+}
+.btn-first-section-to-app-snapp {
+  border: 1px solid #fff;
+  width: fit-content;
+  color: #fff;
+  text-decoration: none;
+  padding: 15px 30px;
+  border-radius: 6px;
+  font-weight: bold;
+}
 @font-face {
   font-family: 'iransans';
   src: url(/assets/fonts/fa-Iran-sans-web-light.woff2);
