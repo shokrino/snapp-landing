@@ -395,6 +395,7 @@ table {
   position: absolute;
   bottom: 8px;
   right: 50%;
+  transform: translateX(50%);
   background-color: hsla(0,0%,100%,.18);
   border-radius: 15px;
   padding: 5px;
@@ -407,6 +408,65 @@ table {
   height: 5px !important;
   padding: 4px !important;
   margin: auto 3px !important;
+}
+.banners-section-snapp-wrapper {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  overflow: hidden;
+  flex-direction: row-reverse;
+}
+.banner-title-snapp {
+  font-size: 22px;
+  font-weight: bold;
+}
+.banner-desc-snapp {
+  font-size: 14px;
+  line-height: 24px;
+}
+.banners-section-snapp-wrapper .inner-right-box-snapp {
+  background: #fff;
+  color: initial;
+  justify-content: start;
+  gap: 30px;
+  padding: 35px 35px 35px 15%;
+}
+.wrapper-img-box-banner-snapp > img {
+  max-height: 455px;
+}
+.full-width-inner-banners {
+  width: 100%;
+  flex: 1;
+  padding: 0 15%;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: -70px;
+  margin-bottom: 30px;
+}
+.item-inner-banner-snapp h4 {
+  font-size: 17px;
+  font-weight: bold;
+  line-height: 2;
+}
+.item-inner-banner-snapp p {
+  font-size: 12px;
+  line-height: 20px;
+}
+.img-inner-banner-snapp {
+  background: #f2f5f8;
+  border-radius: 18px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.item-inner-banner-snapp {
+  margin: auto 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
 }
 @font-face {
   font-family: 'iransans';
