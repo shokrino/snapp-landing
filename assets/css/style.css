@@ -468,6 +468,57 @@ table {
   flex-direction: column;
   gap: 15px;
 }
+.video-section-snapp {
+  width: 100%;
+  display: flex;
+  padding: 50px 15%;
+  background: #f2f5f8;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 35px;
+}
+.video-section-snapp > h2 {
+  color: #404040;
+  font-size: 36px;
+  font-weight: bold;
+}
+.video-section-snapp > p {
+  color: #404040;
+  font-size: 20px;
+}
+.btn-in-video-section-snapp {
+  background-color: #00D170;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 16px 32px;
+  border-radius: 6px;
+}
+.btn-in-video-section-snapp:hover {
+  background-color: #00DB75;
+}
+.bottom-video-section-snapp {
+  width: 100%;
+  display: grid;
+  gap: 30px;
+  grid-template-columns: 1fr 1fr;
+}
+.item-video-section-features-snapp {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  border-radius: 18px;
+  background: #fff;
+  padding: 40px 20px;
+  text-decoration: none;
+  line-height: 1.5;
+}
+.item-video-section-features-snapp > img {
+  width: auto;
+  height: 66px;
+  margin: auto;
+}
 @font-face {
   font-family: 'iransans';
   src: url(/assets/fonts/fa-Iran-sans-web-light.woff2);
