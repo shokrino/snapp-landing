@@ -61,6 +61,9 @@ table {
   align-items: center;
   padding: 0 11.5%;
   border-bottom: 1px solid #e5e5e5;
+  position: sticky;
+  top: 0;
+  z-index: 10;
 }
 .wrapper-menu-header-snapp {
     display: flex;
@@ -518,6 +521,23 @@ table {
   width: auto;
   height: 66px;
   margin: auto;
+}
+.footer-snapp {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  gap: 25px;
+}
+.footer-snapp nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.footer-snapp nav a, .social-inner-snapp {
+  color: #000;
+  text-decoration: none;
 }
 @font-face {
   font-family: 'iransans';
